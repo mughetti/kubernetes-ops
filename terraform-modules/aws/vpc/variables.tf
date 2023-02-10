@@ -30,7 +30,7 @@ variable "enable_nat_gateway" {
 
 variable "enable_vpn_gateway" {
   type    = bool
-  default = true
+  default = false
 }
 
 variable "cluster_name" {
